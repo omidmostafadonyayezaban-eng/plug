@@ -1,0 +1,44 @@
+/* Plug Monitor Admin Styles - RTL Friendly */
+.plug-monitor-wrap { font-family: Tahoma, "IRANSans", sans-serif; }
+.plug-monitor-wrap .postbox { border-radius: 8px; border: 1px solid #ccd0d4; }
+.plug-monitor-wrap h1, .plug-monitor-wrap h2, .plug-monitor-wrap h3 { font-family: Tahoma, sans-serif; }
+
+.plug-top-grid .postbox { height: auto; }
+.plug-badge-info {
+    background: #f0f0f1;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    border: 1px solid #dcdcde;
+}
+
+.plug-card { transition: transform .2s; }
+.plug-card:hover { transform: translateY(-2px); }
+
+.plug-tab { font-family: inherit; }
+.plug-tab:hover { background: #e5e5e5; }
+
+.plug-analysis-content h2, .plug-analysis-content h3, .plug-analysis-content h4 {
+    color: #1d2327;
+    border-right: 3px solid #2271b1;
+    padding-right: 8px;
+    margin-top: 20px;
+}
+
+.plug-analysis-content ul { margin-right: 20px; }
+.plug-analysis-content code {
+    background: #f6f8fa;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+    direction: ltr;
+    display: inline-block;
+    text-align: left;
+}
+
+.plug-monitor-wrap .widefat td, .plug-monitor-wrap .widefat th { vertical-align: middle; }
+
+#plug-live-result, #plug-test-result-box, #plug-analysis-result { animation: fadeIn .3s; }
+@keyframes fadeIn { from { opacity:0; transform: translateY(5px);} to { opacity:1; transform: translateY(0);} }
+
+.rtl .form-table th { text-align: right; }
